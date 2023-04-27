@@ -19,7 +19,7 @@ function setup() {
 
 //Dibuja las formas en el canvas
 function draw() {
-  background(220);
+  background(156, 43, 120);
   for (let forma of formas) {
     forma.draw();
   }
